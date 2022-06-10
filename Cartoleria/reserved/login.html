@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta name="author" content="Ivan De Simone">
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="icon" href="../images/books.jpg">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+      p {
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Accesso area riservata</h1>
+    </header>
+    <main>
+      <form action="admin.php" method="post">
+        <label for="user">Username</label>
+        <input type="text" name="user" required><br>
+        <label for="psw">Password</label>
+        <input type="password" name="psw" required><br>
+        <input type="submit" value="Accedi">
+      </form>
+      <p><a href="../index.html">Torna alla home page</a></p>
+    </main>
+  </body>
+</html>
